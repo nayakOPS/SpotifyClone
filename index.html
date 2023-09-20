@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Spotify-Your favorite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scriptspotify.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="spotify.png" alt="Spotify logo"><p>Spotify</p>
+            </li>
+            <li class="Home">Home</li>
+            <li class="AboutUs">About Us</li>
+        </ul>
+    </nav>
+    <!-- Container for showing the Music Playing -->
+    <div class="container">
+        <!-- Div for showing the music vover photo -->
+        <div class="songlist">
+            <h1>Best of THE BEATLES</h1>
+            <div class="songItemsContainer">
+                <!-- 1 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        8:10
+                        <span class="playButton">
+                        <i id="0" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 2 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        2:47
+                        <span class="playButton">
+                        <i id="1" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 3 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        3:07
+                        <span class="playButton">
+                        <i id="2" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 4 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        2:45
+                        <span class="playButton">
+                        <i id="3" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 5 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        3:12
+                        <span class="playButton">
+                        <i id="4" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 6 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        3:32
+                        <span class="playButton">
+                        <i id="5" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 7 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        3:07
+                        <span class="playButton">
+                        <i id="6" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 8 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        5:13
+                        <span class="playButton">
+                        <i id="7" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 9 -->
+            <div class="songItems">
+                <img alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        2:20
+                        <span class="playButton">
+                        <i id="8" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 10 -->
+            <div class="songItems">
+                <img  alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        3:07
+                        <span class="playButton">
+                        <i id="9" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                <span>      
+                </span>
+            </div>
+            <!-- 11 -->
+            <div class="songItems">
+                <img  alt="">
+                <span class="songName"></span>
+                    <span class="timeStamp">
+                        4:19
+                        <span class="playButton">
+                        <i id="10" class="fa-regular songItemPlay fa-1x fa-circle-play"></i>
+                        </span>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- div for showing the current music playing at the bottom -->
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons  -->
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i  class="fa-regular songItemPlay  fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="https://media.giphy.com/media/jSfIrLP6dvzMQiaaw7/giphy.gif"width="42px" id="gif"><span id="masterSongName">Hey Jude</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4e27a9932c.js" crossorigin="anonymous"></script>
+    <script src="scriptspotify.js"></script>
+</body>
+</html>
